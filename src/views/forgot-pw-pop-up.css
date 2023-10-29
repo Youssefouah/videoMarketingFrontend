@@ -1,0 +1,85 @@
+.forgot-p-pop-up-container {
+  width: 100%;
+  overflow: auto;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 100;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+.forgot-p-pop-up-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  box-shadow: 5px 5px 10px 0px #969595;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: center;
+  border-color: var(--dl-color-gray-500);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius20);
+  margin-bottom: 0px;
+  flex-direction: column;
+  background-color: white;
+}
+.forgot-p-pop-up-text {
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.forgot-p-pop-up-text1 {
+  width: var(--dl-size-size-xxlarge);
+  text-align: center;
+}
+.forgot-p-pop-up-textinput {
+  width: var(--dl-size-size-xxlarge);
+  margin-top: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius10);
+}
+.forgot-p-pop-up-navlink {
+  color: var(--dl-color-primary-300);
+  width: 216px;
+  height: var(--dl-size-size-small);
+  align-self: center;
+  margin-top: var(--dl-space-space-threeunits);
+  margin-left: 0px;
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius10);
+  text-decoration: none;
+  background-color: var(--dl-color-primary-100);
+}
+.forgot-p-pop-up-navlink1 {
+  color: var(--dl-color-primary-100);
+  width: 216px;
+  height: var(--dl-size-size-small);
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  margin-left: 0px;
+  border-color: var(--dl-color-primary-100);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius10);
+  text-decoration: none;
+  background-color: var(--dl-color-primary-300);
+}
+@media (max-width: 991px) {
+  .forgot-p-pop-up-navlink {
+    border-radius: var(--dl-radius-radius-radius10);
+  }
+  .forgot-p-pop-up-navlink1 {
+    border-radius: var(--dl-radius-radius-radius10);
+  }
+}
+@media (max-width: 479px) {
+  .forgot-p-pop-up-navlink {
+    color: var(--dl-color-primary-300);
+    background-color: var(--dl-color-primary-100);
+  }
+  .forgot-p-pop-up-navlink1 {
+    color: var(--dl-color-primary-300);
+    background-color: var(--dl-color-primary-100);
+  }
+}
